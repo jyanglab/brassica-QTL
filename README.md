@@ -6,7 +6,7 @@
 
 - The guideline for the collaborative [workflow](https://jyanglab.github.io/2017-01-10-project-using-github/).
 
-- Check out progress and things [to-do](TODO.md) and throw ideas via the [project wiki page](https://git.unl.edu/collab/brassica-eQTL/wikis/home).
+- Check out progress and things [to-do](TODO.md) and throw ideas via the [project wiki page](https://github.com/jyanglab/brassica-QTL/wiki).
 
 
 ## License

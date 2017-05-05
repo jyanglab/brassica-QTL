@@ -5,3 +5,4 @@
 slurm-log/*
 slurm-script/*
 largedata/*
+.Rproj.user

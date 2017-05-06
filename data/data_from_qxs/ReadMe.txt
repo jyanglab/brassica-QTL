@@ -1,0 +1,35 @@
+To Jinliang:
+I have shared an iplant folder to you.
+/iplant/home/shared/Cabbage/Bra_data_and_results_qxs/Gene_diff_express
+
+Within the folder, I have sevearal input data for CummeRbound. 
+https://www.bioconductor.org/packages/release/bioc/html/cummeRbund.html
+
+I also shared the vcf file to you "145bra.vcfutils.DP10.MQ30.snps.vcf"
+and its statistics "145bra.vcfutils.DP10.MQ30.snps.vcf.stats"
+There are 1.32 Million SNPs in the file.
+
+I also shared the B. rapa genome files:
+Brapa_gene_v1.5.gtf
+Brapa_sequence_v1.5.fa.out
+Brapa_sequence_v1.5.fa.out.fai
+
+
+This is my previous R script:"GDE commandline.R" 
+You can read those data folder to R, do more analysis as you need. 
+
+The Brassica rapa genome and gtf file may needed:
+Brapa_gene_v1.5.gtf
+Brapa_sequence_v1.5.fa.out
+Brapa_sequence_v1.5.fa.out.fai
+
+Folder "diff_out_cummeRbund OUT" has my current results. These results will be used in another manuscript.
+
+"Table S1 Sample informationsMar2017.xlsx" is the sample information.
+
+"Qi_et_al-2017-Molecular_Ecology.pdf" is my published ME paper (in the main folder)
+
+
+
+Have a look of the data, we can schedule a meeting, I can explain more details. 
+

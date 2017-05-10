@@ -1,0 +1,129 @@
+number,Species ,Accession,subspecies,Continent,Country,Region,dadi_group,SRA
+1,B. rapa ,PI 227296,,CA,Iran,,EU-CA,SRS1355074
+2,B. rapa ,Ames 30080,,NA,U.S.,California,EU-CA,SRS1355075
+3,B. rapa ,Ames 30083,,NA,U.S.,California,EU-CA,SRS1355152
+5,B. rapa ,PI 169082,,CA,Turkey,Samsun,EU-CA,SRS1355179
+8,B. rapa ,PI 662794,oleifera,EU, Italy,,EU-CA,SRS1355263
+10,B. rapa ,PI 590995,pekinensis,EA,China,Beijing,P,SRS1355238
+12,B. rapa ,PI 419064,pekinensis,EA,China,Beijing,P,SRS1355073
+13,B. rapa ,PI 649190,oleifera,EU,Belgium,,EU-CA,SRS1355083
+14,B. rapa ,PI 649188,oleifera,EU,Belgium,Leielander,EU-CA,SRS1355114
+15,B. rapa ,PI 391548,pekinensis,EA,China,Shaanxi,P,SRS1355103
+16,B. rapa ,PI 391558,pekinensis,EA,China,Shaanxi,P,SRS1355098
+20,B. rapa ,PI 644006,pekinensis,NA,U.S.,California,C,SRS1355162
+21,B. rapa ,PI 633161,,EU,Italy,Calabria,EU-CA,SRS1355161
+22,B. rapa ,PI 662693,rapa,EA,Japan,,,SRS1355158
+24,B. rapa ,PI 175608,,EU,Turkey,Tekirdag,EU-CA,SRS1355154
+28,B. rapa ,PI 649162,,EU,Sweden,,EU-CA,SRS1355149
+29,B. rapa ,PI 179189,,EU,Iraq,,EU-CA,SRS1355148
+31,B. rapa ,PI 169061,,CA,Turkey,,EU-CA,SRS1355145
+32,B. rapa ,G30479,rapa,NA,U.S.,,,SRS1355138
+34,B. rapa ,PI 127440,,CA,Afghanistan,Kabul,EU-CA,SRS1355134
+35,B. rapa ,PI 254542,,CA,Afghanistan ,Kabul,,SRS1355133
+36,B. rapa ,PI 162778,,NA,Argentina,Bueno Aires,EU-CA,SRS1355132
+37,B. rapa ,PI 212593,,CA,Afghanistan ,Nangarhar,EU-CA,SRS1355131
+38,B. rapa ,PI 257241,,EA,China,,,SRS1355129
+40,B. rapa ,G31787,,EA,China,,C,SRS1355127
+41,B. rapa ,PI 662760,,EA,China,,C,SRS1355126
+42,B. rapa ,PI 662761,,EA,China,,C,SRS1355120
+43,B. rapa ,PI 662729,,EA,China,,C,SRS1355164
+44,B. rapa ,PI 391547,,EA,China,Shaanxi,P,SRS1355165
+45,B. rapa ,PI 391549,,EA,China,Shaanxi,P,SRS1355180
+46,B. rapa ,PI 250004,,CA,Egypt,,EU-CA,SRS1355166
+48,B. rapa ,PI 662772,,EU,Germany,,EU-CA,SRS1355178
+51,B. rapa ,PI 370737,,SA,India,,I,SRS1355176
+52,B. rapa ,PI 603020,,SA,India,,I,SRS1355170
+53,B. rapa ,PI 649160,,SA,India,,I,SRS1355228
+55,B. rapa ,PI 179641,,SA,India,Punjab,I,SRS1355226
+56,B. rapa ,PI 175096,,EU, India,Uttar Pradesh,,SRS1355223
+57,B. rapa ,PI 662684,,EU,Italy,,EU-CA,SRS1355221
+60,B. rapa ,PI 426248,,SA,Pakistan,,,SRS1355218
+61,B. rapa ,PI 603022,,SA,Pakistan,,,SRS1355194
+62,B. rapa ,PI 603025,,SA,Pakistan,,S,SRS1355192
+63,B. rapa ,PI 633154,,SA,Pakistan,,S,SRS1355217
+64,B. rapa ,PI 250136,,SA,Pakistan,,,SRS1355196
+65,B. rapa ,PI 217933,,SA,Pakistan,North-West Front,,SRS1355195
+67,B. rapa ,G 31777,chinensis,EA,China,,C,SRS1355213
+68,B. rapa ,G 31784,chinensis,EA,China,,C,SRS1355212
+69,B. rapa ,G 31785,chinensis,EA,China,,C,SRS1355211
+70,B. rapa ,PI 633165,chinensis,EA,China,,C,SRS1355209
+71,B. rapa ,PI 662550,chinensis,EA,China,,P,SRS1355205
+72,B. rapa ,G 30708,chinensis,EA,China,,C,SRS1355199
+73,B. rapa ,G 30955,chinensis,EA,China,,C,SRS1355270
+74,B. rapa ,G 30794,chinensis,EA,Japan,,P,SRS1355268
+75,B. rapa ,G 28902,chinensis,EA,China,,C,SRS1355269
+76,B. rapa ,PI 662679,chinensis,EA,Japan,,C,SRS1355267
+77,B. rapa ,PI 662680,chinensis,EA,Japan,,C,SRS1355266
+78,B. rapa ,G 32370,chinensis,EA,Japan,,,SRS1355265
+79,B. rapa ,G 30792,chinensis,EA,Japan,,C,SRS1355264
+80,B. rapa ,PI 508408,chinensis,EA,South Korea,,C,SRS1355261
+81,B. rapa ,PI 508409,chinensis,EA,South Korea,,C,SRS1355254
+82,B. rapa ,PI 662682,chinensis,EA,China,Taiwan,P,SRS1355253
+83,B. rapa ,PI 662642 ,dichotoma,SA,India,,,SRS1355252
+84,B. rapa ,PI 340208,dichotoma,SA,India,,S,SRS1355251
+85,B. rapa ,PI 347602,dichotoma,SA,India,,I,SRS1355250
+86,B. rapa ,PI 649171,dichotoma,SA,India,,S,SRS1355249
+87,B. rapa ,PI 649173,dichotoma,SA,India,,C,SRS1355248
+88,B. rapa ,PI 649178,dichotoma,SA,India,,I,SRS1355246
+89,B. rapa ,PI 649181,dichotoma,NA,U.S.,Iowa,,SRS1355247
+90,B. rapa ,PI 662690,narinosa,EA,Japan,,,SRS1355301
+91,B. rapa ,PI 662687,nipposinica,EA,China,Taiwan,,SRS1355300
+94,B. rapa ,PI 597831,oleifera,CA,Egypt,,S,SRS1355297
+95,B. rapa ,PI 649194,oleifera,EU, Germany,,EU-CA,SRS1355296
+96,B. rapa ,G 30623,oleifera,SA,India,,,SRS1355294
+97,B. rapa ,PI 633168,oleifera,EU,Italy,,EU-CA,SRS1355295
+98,B. rapa ,G 30238,oleifera,EU,Spain,,C,SRS1355293
+99,B. rapa ,PI 390964,parachinensis,EA,China ,Hong Kong,C,SRS1355272
+100,B. rapa ,PI 390963,parachinensis,EA,China ,Hong Kong,C,SRS1355286
+101,B. rapa ,PI 662783,parachinensis,SA,Indonesia,Sumatra,C,SRS1355285
+103,B. rapa ,G 30694,pekinensis,EA,China ,,P,SRS1355284
+104,B. rapa ,PI 419106,pekinensis,EA,China ,,P,SRS1355282
+105,B. rapa ,PI 269437,pekinensis,EA,China ,,,SRS1355281
+106,B. rapa ,PI 419073,pekinensis,EA,China ,Beijing,P,SRS1355283
+107,B. rapa ,PI 419072,pekinensis,EA,China ,Beijing,P,SRS1355280
+108,B. rapa ,PI 427091,pekinensis,EA,China ,Guangdong,C,SRS1355279
+109,B. rapa ,PI 391560,pekinensis,EA,China,Shaanxi,P,SRS1355277
+110,B. rapa ,PI 426177,,CA, Afghanistan,,P,SRS1355339
+111,B. rapa ,PI 279857,pekinensis,EA,Japan,,,SRS1355072
+112,B. rapa ,PI 662676,pekinensis,EA,Japan,,P,SRS1355071
+113,B. rapa ,PI 269438,pekinensis,SA,Pakistan,,,SRS1355070
+114,B. rapa ,PI 508414,pekinensis,EA,South Korea,,P,SRS1355069
+115,B. rapa ,PI 508422,pekinensis,EA,South Korea,,P,SRS1355067
+116,B. rapa ,PI 508421,pekinensis,EA,South Korea,,P,SRS1355068
+117,B. rapa ,PI 508416,pekinensis,EA,South Korea,,P,SRS1355086
+118,B. rapa ,PI 508417,pekinensis,EA,South Korea,,,SRS1355085
+119,B. rapa ,PI 508418,pekinensis,EA,South Korea,,P,SRS1355076
+120,B. rapa ,PI 508420,pekinensis,EA,South Korea,,P,SRS1355084
+121,B. rapa ,PI 257236,pekinensis,EA,Thailand,,P,SRS1355082
+122,B. rapa ,PI 257237,pekinensis,EA,Thailand,,C,SRS1355081
+123,B. rapa ,PI 257238,pekinensis,EA,Thailand,,P,SRS1355080
+124,B. rapa ,PI 662620,pekinensis,NA,U.S.,,P,SRS1355079
+125,B. rapa ,G 30441,pekinensis,NA,U.S.,,P,SRS1355078
+126,B. rapa ,G 30787,pekinensis,NA,U.S.,,P,SRS1355077
+127,B. rapa ,PI 662616,perviridis,NA,U.S.,,P,SRS1355118
+128,B. rapa ,PI 633181,rapa,NA,Hondura,Lempira,EU-CA,SRS1355117
+130,B. rapa ,PI 662686,rapa,EA,China,Taiwan,C,SRS1355115
+131,B. rapa ,PI 662629,rapa,NA,U.S.,,,SRS1355113
+133,B. rapa ,PI 662631,rapa,NA,U.S.,,,SRS1355112
+134,B. rapa ,PI 347608,trilocularis,SA,India,,I,SRS1355111
+135,B. rapa ,PI 459019,trilocularis,SA,India,,I,SRS1355110
+136,B. rapa ,PI 649200,trilocularis,SA,India,,I,SRS1355109
+137,B. rapa ,PI 649201,trilocularis,SA,India,,I,SRS1355108
+138,B. rapa ,PI 649202,trilocularis,SA,India,,I,SRS1355107
+139,B. rapa ,PI 426420,trilocularis,SA,Pakistan,,I,SRS1355106
+140,B. rapa ,PI 390142,trilocularis,SA,Pakistan,,I,SRS1355105
+141,B. rapa ,PI 426422,trilocularis,SA,Pakistan,,I,SRS1355104
+142,B. rapa ,PI 426423,trilocularis,SA,Pakistan,,I,SRS1355102
+143,B. rapa ,PI 649208,trilocularis,NA,U.S.,Iowa,I,SRS1355091
+144,B. rapa ,PI 649206,trilocularis,NA,U.S.,Iowa,I,SRS1355090
+145,B. rapa ,PI 649207,trilocularis,NA,U.S.,Iowa,I,SRS1355089
+146,B. rapa ,PI 649204,trilocularis,NA,U.S.,Iowa,I,SRS1355088
+147,B. rapa ,PI 198061,,EU,Sweden,,EU-CA,SRS1355087
+149,B. rapa ,PI 347594,dichotoma,SA,India,,I,SRS1355100
+150,B. rapa ,JCP0148,,,/,,,SRS1355092
+151,B. rapa ,JCP0026,,,/,,,SRS1355099
+153,B. rapa ,GC 1742-69,sylvestris,,/,,S,SRS1355097
+154,B. rapa ,GC 4623-77,sylvestris,,/,,S,SRS1355096
+160,B. rapa ,PI 603024,,SA,Pakistan,,,SRS1355095
+,B oleracea ,,,,,,,SRR630924
+,B.oleracea,,capitata,,,,,SRR1032050

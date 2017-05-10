@@ -43,7 +43,8 @@ Brapa_sequence_v1.5.fa.out.fai
 
 Folder "diff_out_cummeRbund OUT" has my current results. These results will be used in another manuscript.
 
-"Table S1 Sample informationsMar2017.xlsx" is the sample information.
+### `Table S1 Sample informationsMar2017.xlsx` is the sample information.
+- I will start from here.
 
 "Qi_et_al-2017-Molecular_Ecology.pdf" is my published ME paper (in the main folder)
 

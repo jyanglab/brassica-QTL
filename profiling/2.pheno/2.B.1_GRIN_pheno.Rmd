@@ -1,0 +1,57 @@
+---
+title: "Learn a bit about the phenotype"
+output:
+  html_notebook: default
+date: "05-09-2017"
+---
+
+
+```{r setup, include=TRUE, warning=FALSE}
+knitr::opts_knit$set(root.dir=normalizePath('../../'))
+knitr::opts_knit$set(warnings = TRUE, include=TRUE, echo=TRUE)
+library(tidyverse)
+```
+
+
+## GRIN pheno data
+
+USDA GRIN database for [Brassica rapa](https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=7685).
+They have 763 accessions in total. => `data/export_2017_05_10_06_47_04.csv`.
+
+Downloaded pheno data through this [page](https://npgsweb.ars-grin.gov/gringlobal/AccessionObservation.aspx?id=1087059).
+
+
+
+```{r}
+files <- list.files(path = "largedata/GRIN-pheno/", pattern = "csv", full.names=TRUE)
+
+for(i in 1:length(files)){
+    g <- read.csv(files[i], skip=2)
+    print(head(g))
+}
+
+
+```
+
+
+## Extract the phenotypic information
+
+```{r}
+info <- read.csv("data/Table_S1_Sample_informationsMar2017.csv")
+info$Accession <- gsub(" ", "", info$Accession)
+
+#files <- list.files(path = "largedata/GRIN-pheno/", pattern = "csv", full.names=TRUE)
+
+for(i in 1:length(files)){
+    g <- read.csv(files[i], skip=2)
+    g$uid <- paste0(g$accession_prefix, g$accession_number)
+    subg <- subset(g, uid %in% info$Accession)
+    print(nrow(subg))
+}
+```
+
+Okay, not all of the lines have phenotypic data. The largest sample number are 57. We can use do it something. It definitely not powerful enough for a GWAS.
+
+### Pheno data matrix `data/USDA_Pheno_data/USDABrapaInfo.csv`.
+
+

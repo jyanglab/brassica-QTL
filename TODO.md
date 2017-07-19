@@ -10,8 +10,9 @@
 3. find master modules
 
 
+
 ## qxs to do list
-- upload VCF and RPKM data
-- learn what is eQTL, and how to analysis
-- design analysis and scientific questions.
+[]upload VCF and RPKM data
+[]learn what is eQTL, and how to analysis
+[]design analysis and scientific questions.
 

@@ -1,0 +1,65 @@
+---
+title: "Genotype and LD decay"
+date: 07-31-2017
+author: Jinliang Yang
+output: html_notebook
+---
+
+
+## VCF genotype
+
+```{bash}
+cd largedata/geno
+
+plink -bfile bra145_fd --allow-extra-chr --r2 --out bra145_fd -ld-window-r2 0 
+
+```
+
+## Genotype
+```{r, eval=FALSE}
+library(data.table)
+library(plyr)
+
+ld <- fread("largedata/geno/bra145_fd.ld", data.table=TRUE)
+ld$dis <- ld$BP_B - ld$BP_A
+
+ld$bin <- round(ld$dis/10,0)
+
+
+out <- ld[,.(mr2 = mean(R2), num=length(R2)), by=bin]
+out[order(out$bin),]
+    
+plot(out$bin, out$mr2)
+
+```
+
+Take home:
+- `10` chrs, A01-A10. N=1358 Scaffold.
+- before filtering, 1,322,036 SNPs. After filtering out F_MISS > 0.8 and MAF < 0.05, only `N=251079` remaining.
+
+
+### PLINK Geno Filtering
+
+```{bash}
+## get some SNP infomation
+plink -bfile bra145 --allow-extra-chr --maf 0.05 --geno 0.8 --make-bed --out bra145_fd  
+
+## get some SNP infomation
+plink -bfile bra145_fd --allow-extra-chr --pca --ibc --out bra145_fd  
+
+### recode the ATCG genotype into 0/1/2 with option `A` in PLINK.
+plink -bfile bra145 --allow-extra-chr --recode A --out bra145
+```
+
+### PCA
+
+```{r, eval=FALSE}
+ev <- read.table('largedata/geno/bra145_fd.eigenvec', header=FALSE)
+
+plot(ev[3:5])
+
+library(rgl)
+plot3d(ev[,3:5])
+
+```
+

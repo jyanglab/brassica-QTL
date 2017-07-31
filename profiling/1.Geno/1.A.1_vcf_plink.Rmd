@@ -1,0 +1,82 @@
+---
+title: "Genotype and LD decay"
+date: 07-31-2017
+author: Jinliang Yang
+output: html_notebook
+---
+
+
+## VCF genotype
+
+```{bash}
+cd largedata/geno
+
+##add SNP ID
+module load bcftools
+bcftools annotate --set-id +'%CHROM\_%POS\_%REF\_%FIRST_ALT' ../../vcf_files/145bra.vcfutils.DP10.MQ30.snps.vcf -O v -o bra145.vcf
+
+## converted into bfile format
+plink -vcf bra145.vcf  --keep-allele-order --make-bed --out bra145 --allow-extra-chr
+## get some SNP infomation
+plink -bfile bra145 --allow-extra-chr --freq --missing --pca --ibc --out bra145  
+
+```
+
+## Genotype
+```{r, eval=FALSE}
+library(data.table)
+
+frq <- fread("largedata/geno/bra145.frq", data.table=FALSE)
+dim(frq) #1322036 6
+length(unique(frq$CHR)) #1368
+subf <- subset(frq, MAF > 0.05)
+
+
+m <- fread("largedata/geno/bra145.lmiss", data.table=FALSE)
+
+#### Plot results
+pdf("graphs/geno_maf_missing.pdf", width=10, height=5)
+par(mfrow=c(1,2))
+hist(frq$MAF, breaks=50, col="#458b74", main="Minor Allele Freq (N=145)", xlab="MAF")
+abline(v=0.05, lty=2, lwd=2, col="red")
+
+hist(m$F_MISS, breaks=50, col="#458b74", main="Loci Missing Rate (N=145)", xlab="Missing Rate")
+abline(v=0.8, lty=2, lwd=2, col="red")
+dev.off()
+
+#### Data filtering
+tot <- merge(frq[, c(2,5)], m[, c(2,5)], by="SNP")
+sub <- subset(tot, MAF >= 0.05 & F_MISS <= 0.8)
+
+```
+
+Take home:
+- `10` chrs, A01-A10. N=1358 Scaffold.
+- before filtering, 1,322,036 SNPs. After filtering out F_MISS > 0.8 and MAF < 0.05, only `N=251079` remaining.
+
+
+### PLINK Geno Filtering
+
+```{bash}
+## get some SNP infomation
+plink -bfile bra145 --allow-extra-chr --maf 0.05 --geno 0.8 --make-bed --out bra145_fd  
+
+## get some SNP infomation
+plink -bfile bra145_fd --allow-extra-chr --pca --ibc --out bra145_fd  
+
+### recode the ATCG genotype into 0/1/2 with option `A` in PLINK.
+plink -bfile bra145 --allow-extra-chr --recode A --out bra145
+```
+
+### PCA
+
+```{r, eval=FALSE}
+ev <- read.table('largedata/geno/bra145_fd.eigenvec', header=FALSE)
+
+plot(ev[3:5])
+
+library(rgl)
+plot3d(ev[,3:5])
+
+```
+
